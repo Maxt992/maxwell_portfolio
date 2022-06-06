@@ -71,16 +71,18 @@ h2 {
     color: #BC3908;
 }
 
+/* This builds a triangle. It's basically one border of a square made visible. */
 .arrow-up {
     position: absolute;
-    top: 23px;
-    left: 0px;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 50px solid #BC3908;
+    top: 0px;
+    left: -49px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #BC3908;
     border-radius: 25px 25px 25px 25px;
     transform: rotate(-45deg);
-  }
+    
+}
 
 .card {
     position: sticky;
@@ -88,14 +90,17 @@ h2 {
 }
 
 .box_l {
-    position: absolute;
-
+    position: static;
+    padding: 1%;
+    margin-left: 150px;
+    margin-bottom: 75px;
     right: 0px;
     border: #14213D;
     border-radius: 15px; 
-    width: 1750px;
+    width: 500px;
+    height: 500px;
     display: inline-block;
-    background-color: #BC3908;
+    background-color: #bc380869;
 }
 
 .box_r {
