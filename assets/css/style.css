@@ -1,31 +1,6 @@
 :root {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
-    --card-height: 40vw;
-    --card-margin: 4vw;
-    --card-top-offset: 1em;
-    --numcards: 4;
-    --outline-width: 0px;
-}
-
-#cards {
-    padding: 2%;
-}
-
-#card_1 {
-
-}
-
-#card_2 {
-
-}
-
-#card_3 {
-
-}
-
-#card_4 {
-
-
+    
 }
 
 header {
@@ -34,7 +9,7 @@ header {
     border-style:none;
     border-bottom: 12px;
     border-radius: 500px 50px 50px 50px;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 section {
@@ -70,7 +45,9 @@ h2 {
 
 .col {
     flex: 1 0 0%;
+    font-size: 12pt;
     color: #14213D;
+    margin-right: 10px;
 }
 
 .nav {
@@ -110,9 +87,19 @@ h2 {
 
 }
 
-.content_1 {
-    display: block;
+.box_l {
+    position: absolute;
+
+    right: 0px;
+    border: #14213D;
+    border-radius: 15px; 
+    width: 1750px;
+    display: inline-block;
     background-color: #BC3908;
+}
+
+.box_r {
+
 }
 
 .content_2 {
