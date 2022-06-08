@@ -13,7 +13,7 @@ header {
 }
 
 p {
-    font-size: 32pt;
+    font-size:18pt;
 }
 
 h1 {
@@ -40,7 +40,7 @@ h3 {
     text-decoration: overline;
     position: absolute;
     transform: rotate(-45deg);
-    top: 80px;
+    bottom: -170px;
     left: 5px;
     color: #BC3908;
 }
@@ -50,8 +50,8 @@ h4 {
     text-decoration: overline;
     position: absolute;
     transform: rotate(-45deg);
-    top: 80px;
-    left: 5px;
+    bottom: -170px;
+    right: 780px;
     color: #BC3908;
 }
 .boxes {
@@ -74,8 +74,8 @@ h4 {
 }
 
 .box_2 {
-    position: static;
-    display: block;
+    position: absolute;
+    right: 200px;
     padding: 1%;
     margin-top: 100px;
     margin-left: 200px;
@@ -96,7 +96,7 @@ h4 {
     border-radius: 15px; 
     margin-bottom: 250px;
     width: 500px;
-    height: 500px;
+    height: 143px;
     background-color: #bc380869;
 }
 
@@ -104,12 +104,12 @@ h4 {
     position: absolute;
     padding: 1%;
     top: 2300px;
-    left: 200px;
+    right: 200px;
     border: #14213D;
     border-radius: 15px; 
     margin-bottom: 250px;
     width: 500px;
-    height: 500px;
+    height: 143px;
     background-color: #bc380869;
 }
 
@@ -179,7 +179,7 @@ h4 {
     font-size: 32pt;
     text-decoration: overline;
     position: absolute;
-    right: 580px;
+    right: 780px;
     transform: rotate(-45deg);
     color: #BC3908; 
 }
