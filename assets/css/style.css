@@ -12,12 +12,6 @@ header {
     margin-bottom: 75px;
 }
 
-section {
-    display: flex;
-    background-color: red;
-
-}
-
 p {
     font-size: 32pt;
 }
@@ -39,6 +33,84 @@ h2 {
     position: absolute;
     transform: rotate(-45deg);
     color: #BC3908;
+}
+
+h3 {
+    font-size: 32pt;
+    text-decoration: overline;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 80px;
+    left: 5px;
+    color: #BC3908;
+}
+
+h4 {
+    font-size: 32pt;
+    text-decoration: overline;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 80px;
+    left: 5px;
+    color: #BC3908;
+}
+.boxes {
+    display: block;
+}
+
+.box_l {
+    position: static;
+    display: block;
+    padding: 1%;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 75px;
+    right: 0px;
+    border: #14213D;
+    border-radius: 15px; 
+    width: 500px;
+    height: 500px;
+    background-color: #bc380869;
+}
+
+.box_2 {
+    position: static;
+    display: block;
+    padding: 1%;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 75px;
+    border: #14213D;
+    border-radius: 15px; 
+    width: 500px;
+    height: 500px;
+    background-color: #bc380869;
+}
+
+.box_3 {
+    position: absolute;
+    padding: 1%;
+    top: 2300px;
+    left: 200px;
+    border: #14213D;
+    border-radius: 15px; 
+    margin-bottom: 250px;
+    width: 500px;
+    height: 500px;
+    background-color: #bc380869;
+}
+
+.box_4 {
+    position: absolute;
+    padding: 1%;
+    top: 2300px;
+    left: 200px;
+    border: #14213D;
+    border-radius: 15px; 
+    margin-bottom: 250px;
+    width: 500px;
+    height: 500px;
+    background-color: #bc380869;
 }
 
 .row {
@@ -92,30 +164,7 @@ h2 {
 .card {
     position: sticky;
 
-}
-
-.box_l {
-    position: static;
-    padding: 1%;
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-bottom: 75px;
-    right: 0px;
-    border: #14213D;
-    border-radius: 15px; 
-    width: 500px;
-    height: 500px;
-    display: inline-block;
-    background-color: #bc380869;
-}
-
-.box_r {
-
-}
-
-.content_2 {
-    display: block;
-}
+} 
 
 .content_3 {
     display: block;
@@ -125,7 +174,15 @@ h2 {
     display: block;
 }
 
-
+.rightheader {
+    flex: 1 0 0%;
+    font-size: 32pt;
+    text-decoration: overline;
+    position: absolute;
+    right: 580px;
+    transform: rotate(-45deg);
+    color: #BC3908; 
+}
   /* @media screen and (max-width: 500px) {
     header {
       float: none;
