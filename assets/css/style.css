@@ -31,31 +31,39 @@ h2 {
     font-size: 32pt;
     text-decoration: overline;
     position: absolute;
-    transform: rotate(-45deg);
+    left: 25px;
     color: #BC3908;
 }
 
 h3 {
+
     font-size: 32pt;
     text-decoration: overline;
     position: absolute;
-    transform: rotate(-45deg);
+    left: 25px;
     bottom: -170px;
-    left: 5px;
     color: #BC3908;
+    
 }
 
 h4 {
+    flex: 1 0 0%;
     font-size: 32pt;
     text-decoration: overline;
     position: absolute;
-    transform: rotate(-45deg);
-    bottom: -170px;
-    right: 780px;
+    top: 2928px;
+    left: 350px;
     color: #BC3908;
 }
-.boxes {
-    display: block;
+
+h5 {
+    flex: 1 0 0%;
+    font-size: 32pt;
+    text-decoration: overline;
+    position: absolute;
+    top: 2912px;
+    right: 390px;
+    color: #BC3908;
 }
 
 .box_l {
@@ -68,21 +76,20 @@ h4 {
     right: 0px;
     border: #14213D;
     border-radius: 15px; 
-    width: 500px;
+    width: 1450px;
     height: 500px;
     background-color: #bc380869;
 }
 
 .box_2 {
     position: absolute;
-    right: 200px;
     padding: 1%;
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-bottom: 75px;
+    top: 2300px;
+    left: 200px;
     border: #14213D;
     border-radius: 15px; 
-    width: 500px;
+    margin-bottom: 250px;
+    width: 1450px;
     height: 500px;
     background-color: #bc380869;
 }
@@ -90,7 +97,7 @@ h4 {
 .box_3 {
     position: absolute;
     padding: 1%;
-    top: 2300px;
+    top: 3050px;
     left: 200px;
     border: #14213D;
     border-radius: 15px; 
@@ -103,7 +110,7 @@ h4 {
 .box_4 {
     position: absolute;
     padding: 1%;
-    top: 2300px;
+    top: 3050px;
     right: 200px;
     border: #14213D;
     border-radius: 15px; 
@@ -116,7 +123,7 @@ h4 {
 .row {
     position: absolute;
     display: block;
-    /* This helps keep the background picture from stretching the container size */
+    /* This helps keep the background picture from stretching the container width */
     max-width: 1890px;
 }
 
@@ -172,17 +179,8 @@ h4 {
 
 .content_4 {
     display: block;
-}
+} 
 
-.rightheader {
-    flex: 1 0 0%;
-    font-size: 32pt;
-    text-decoration: overline;
-    position: absolute;
-    right: 780px;
-    transform: rotate(-45deg);
-    color: #BC3908; 
-}
   /* @media screen and (max-width: 500px) {
     header {
       float: none;
