@@ -1,13 +1,18 @@
-# maxwell_portfolio
+# My Portfolio Site
 
 
 ## Description
 
 A rough template for a personal portfolio site built for myself.
 
+## Things I Learned
+
 - I learned alot about resizing and postition page content with absolute positioning.
 - I learned how to create links contained within images.
 - I learned about color schemes, and planning a page layout.
+- Building triangles out of boxes
+- Rotating elements
+- Playing with box radii to create curved corners
 
 I used HTML and CSS to accomplish this project.
 
