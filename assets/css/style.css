@@ -3,6 +3,12 @@
     
 }
 
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
 header {
     overflow: hidden;
     /* background-color: green; */
@@ -181,7 +187,24 @@ h5 {
     display: block;
 } 
 
-  /* @media screen and (max-width: 500px) {
+.bes {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    height: 200px;
+    width: 200px;           
+   }
+
+.movP {
+    position: absolute;
+    right: 260px;
+    top: 50px;
+    height: 200px;
+    width: 200px;           
+   }
+
+
+/* @media screen and (max-width: 500px) {
     header {
       float: none;
       display: block;
